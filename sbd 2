@@ -1,0 +1,30 @@
+cd C:\Users\ASUS\OneDrive\Documents\NetBeansProjects\SistempendaftaranKonser; "JAVA_HOME=C:\\Program Files\\Apache NetBeans\\jdk" cmd /c "\"C:\\Program Files\\Apache NetBeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Apache NetBeans\\jdk\\bin\\java.exe\" -Dexec.mainClass=main.App -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\Apache NetBeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec"
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/C:/Program%20Files/Apache%20NetBeans/java/maven/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+Scanning for projects...
+
+---------------< com.mycompany:SistempendaftaranKonser >----------------
+Building SistempendaftaranKonser 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.3.1:resources (default-resources) @ SistempendaftaranKonser ---
+skip non existing resourceDirectory C:\Users\ASUS\OneDrive\Documents\NetBeansProjects\SistempendaftaranKonser\src\main\resources
+
+--- compiler:3.13.0:compile (default-compile) @ SistempendaftaranKonser ---
+Nothing to compile - all classes are up to date.
+
+--- exec:3.1.0:exec (default-cli) @ SistempendaftaranKonser ---
+
+=== Sistem Pendaftaran Konser ===
+1. Tambah Peserta
+2. Tampilkan Peserta
+3. Update Peserta
+4. Hapus Peserta
+5. Cari Peserta
+0. Keluar
+Pilih menu: 1
+Masukkan Nama: naya
+Masukkan Email: 
